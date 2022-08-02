@@ -1,0 +1,59 @@
+que1::What is JS ?
+
+ans:: Javascript is a combination of both compiler and interpreter and it works on the concept of JIT 
+(Just in time compilation). In this the whole code gets compiled in one single shot and then directly
+ it goes for execution , no file gets generated.
+
+Javascript is a -
+
+1]Synchronous language means the complete code will be executed line by line.
+2]Single Threaded language means once the error occurs then the execution will stop at that line itself.
+3]Dynamic Programming Language means when you are creating a variable and assigning it some value then
+  this value type can be changed throughout the whole code execution which is not applicable in other 
+  programming languages.
+
+
+ que2:: what is the javascript run time environment?
+ Ans:: The JavaScript engine doesn’t run in isolation. It runs inside an environment called JavaScript Runtime Environment along with many other components. JRE is responsible for making JavaScript asynchronous. It is the reason JavaScript is able to add event listeners and make HTTP requests asynchronously.
+      JRE is just like a container which consists of the following components:
+     1.JS Engine
+     2.Web API
+     3.Callback Queue or message queue
+     4.Event Table
+     5.Event loop
+
+
+Que3:: what is execution context?
+
+when the js engine executes the js code,it creates an environment called the execution context.
+it is basically the concept for describing internal working of a code.
+during execution context, a js code gets parsed line by line and variables and functions are stored in the memory.
+each execution context has 2 phase-
+1.)Creation phase
+2.)Execution phase
+
+ Q.4 what is javascript Engine?
+2. What is JS engine and what are different engines available?
+JS engine is a program which gets used to execute the JS code. All the browsers have their own JS engine. 
+But out of all the most famous one is V8 engine provided by Google chrome. 
+Internet Explorer has Chakra
+Mozilla Firefox has Spider Monkey
+
+
+que5:: Flow of data in Engine? 
+Parsers:- JS parsers provide the feature of syntax 
+    
+AST:-a tree representation of the source code of a computer program that conveys the structure 
+of the source code.
+compilation:- It will converted code into machine level language.
+Execution:-Execution context allows the JavaScript engine to manage the complexity of interpreting 
+and running our code.
+
+
+
+
+
+
+
+
+
