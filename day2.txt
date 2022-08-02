@@ -1,0 +1,67 @@
+que1:: Different Data types available in JavaScript ?
+ans::there are two type of data type
+ Primitive:–
+ undefined
+ Boolean
+ Number
+ String
+ BigInt
+ Symbol 
+ non-Primitive:–
+ Object 
+ Array
+
+
+que2:: In how many ways we can declare variable ? what is difference between them.
+ans:: there are three ways to declarea variable
+1)var 
+2)let
+3)const
+var keyword is oldest keyword and let and const are introduced in es6. 
+var declarations are globally scoped or function scoped while let and const are block scoped. 
+var variables can be updated and re-declared within its scope; 
+let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. 
+They are all hoisted to the top of their scope. But while var variables are initialized with undefined,
+let and const variables are not initialized. 
+While var and let can be declared without being initialized, const must be initialized during declaration.
+
+
+
+que3:: What is Hoisting ?
+ans::Hoisting is a JavaScript mechanism where variables, function declarations and classes are moved to the 
+top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation. 
+
+
+que4:: What is Temporal Dead Zone ?
+ans :: The Temporal Dead Zone is a behavior in JavaScript that occurs when declaring a variable with the
+ let and const keywords, but not with var. In ECMAScript 6, accessing a let or const variable before 
+ its declaration (within its scope) causes a ReferenceError. 
+
+
+que5::What is difference between == and === operators ?
+ans:: == and ===are the comparison operators in java JavaScript
+ They always return the value true or false.
+ In == operators it comparing only the value
+ In === operators it comparing the value as well as data type
+
+que6:: What are the different type of operators in javascript ?
+ans:: There are various operators supported by JavaScript as below,
+
+1] Arithmetic Operators: 
+Includes + (Addition),– (Subtraction), * (Multiplication),
+ / (Division), % (Modulus), + + (Increment) and – – (Decrement)
+
+2] Comparison Operators: 
+Includes = =(Equal),!= (Not Equal), ===(Equal with type), 
+> (Greater than),> = (Greater than or Equal to),< (Less than),
+<= (Less than or Equal to)
+
+3] Logical Operators: Includes &&(Logical AND),||(Logical OR),!(Logical NOT)
+
+4] Assignment Operators: Includes = (Assignment Operator), += (Add and Assignment Operator), 
+– = (Subtract and Assignment Operator), *= (Multiply and Assignment), /= (Divide and Assignment),
+ %= (Modules and Assignment)
+
+5] Ternary Operators: It includes conditional(: ?) Operator
+
+6] typeof Operator: It uses to find type of variable. 
